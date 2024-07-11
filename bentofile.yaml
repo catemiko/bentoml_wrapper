@@ -1,0 +1,1 @@
+service: "bento_service.py:bento_service"
