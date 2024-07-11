@@ -1,5 +1,5 @@
 from data import SimpleModelInput, SimpleModelOutput
-from init import BentoInit
+from models.init import BentoInit
 from service import SimpleRestService
 
 bento_init = BentoInit(SimpleRestService, SimpleModelInput, SimpleModelOutput)
